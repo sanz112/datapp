@@ -1,0 +1,6 @@
+node_modules
+.htaccess
+.env
+composer.json
+composer.lock
+yarn.lock

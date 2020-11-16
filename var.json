@@ -1,0 +1,5 @@
+
+    [{"id": "000", "content": [{"var_cod" : "500"},{"var_cod" : "1000"},{"var_cod" : "2000"},{"var_cod" : "3000"},{"var_cod" : "5000"}]},
+    {"id": "001", "content": [{"var_cod" : "57"},{"var_cod" : "53"},{"var_cod" : "55"},{"var_cod" : "58"},{"var_cod" : "54"}, {"var_cod": "59"}, {"var_cod" : "2"}]},
+    {"id": "002", "content": [{"var_cod" : "7*1"},{"var_cod" : "6*1"},{"var_cod" : "5*1"},{"var_cod" : "4*1"},{"var_cod" : "3*1"}, {"var_cod": "2*1"}, {"var_cod" : "1*1"}]},
+    {"id": "003", "content": [{"var_cod" : "10"},{"var_cod" : "1"},{"var_cod" : "2"},{"var_cod" : "7"},{"var_cod" : "25"}, {"var_cod": "3"}, {"var_cod": "8"}, {"var_cod": "36"}, {"var_cod" : "37"}]}]

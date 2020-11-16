@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^3.0.0"
+  },
+  "name": "swiftgeek",
+  "version": "1.0.0",
+  "description": "Where you can get available data, airtime and Tv Subscription at affordable prices",
+  "main": "payment/main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vtu",
+    "swiftgeek"
+  ],
+  "author": "swiftgeek links",
+  "license": "MIT"
+}

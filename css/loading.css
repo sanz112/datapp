@@ -1,0 +1,62 @@
+
+@keyframes ldio-vcgc72oq9pl-1 {
+  0% { top: 36px; height: 100px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+@keyframes ldio-vcgc72oq9pl-2 {
+  0% { top: 41.9px; height: 88px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+@keyframes ldio-vcgc72oq9pl-3 {
+  0% { top: 48px; height: 72px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+.ldio-vcgc72oq9pl div { position: absolute; width: 30px }.ldio-vcgc72oq9pl div:nth-child(1) {
+  left: 35px;
+  background: #ffb12d;
+  animation: ldio-vcgc72oq9pl-1 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: -0.2s
+}
+.ldio-vcgc72oq9pl div:nth-child(2) {
+  left: 85px;
+  background: #d34c31;
+  animation: ldio-vcgc72oq9pl-2 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: -0.1s
+}
+.ldio-vcgc72oq9pl div:nth-child(3) {
+  left: 135px;
+  background: #e88432;
+  animation: ldio-vcgc72oq9pl-3 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: undefineds
+}
+
+#swiftContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.loadingio-spinner-pulse-np1e5y15zy {
+  width: 200px;
+  height: 150px;
+  margin: 0;
+  
+  overflow: hidden;
+  background: #f1f2f3;
+}
+.ldio-vcgc72oq9pl {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; 
+}
+.ldio-vcgc72oq9pl div { box-sizing: content-box; }

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eventually by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Eventually</h1>
+				<p>A simple template for telling the world when you'll launch<br />
+				your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+
+<optgroup id="mtnopt" style="display: none; label="MTN">
+	<option>1GB ---  N330</option>
+	<option>2GB ---- N600</option>
+	<option>4GB --- N1,000</option>
+	<option>10GB --- N2,000</option>
+	</optgroup>
+	<optgroup id="gloopt" style="display: none; label="GLO">
+	<option>1GB ---  N350</option>
+	<option>2GB ---- N600</option>
+	<option>4GB --- N1,000</option>
+	<option>10GB --- N2,000</option>
+	</optgroup>
+	<optgroup id="airtelopt" style="display: none; label="AIRTEL">
+	<option>1GB ---  N450</option>
+	<option>2GB ---- N600</option>
+	<option>4GB --- N1,000</option>
+	<option>10GB --- N2,000</option>
+	</optgroup>
+	<optgroup id="9mobileopt" style="display: none; label="9MOBILE">
+	<option>1GB ---  N400</option>
+	<option>2GB ---- N600</option>
+	<option>4GB --- N1,000</option>
+	<option>10GB --- N2,000</option>
+	</optgroup>
+
+
+
+
+	$from = "info@swiftgeek.com.ng";
+            $to = $email;
+            $subject = "Confirm Email";
+            $body= 'Activate your email;
+            <a href="https://swiftgeek.com/swiftdetails/login.php?email="'. $email . '&token='. $token.'>Activate Email</a><br><b>If you did not send this request kindly ignore. Thanks.';
+            $headers["From"] = $from;
+            $headers["To"] = $to;
+            $headers["Subject"] = $subject;
+            $headers["Reply-To"] = $username;
+            $headers["Content-Type"] = "text/html; UTF-8";
+
+
+            $smtp = Mail::factory('smtp', array ('host' =>'localhost', 'auth' => true, 'username' => $username, 'password' => $password, 'port' => '25')); // SMTP protocol with the username and password of an existing email account in your hosting account
+            $mail = $smtp->send($to, $headers, $body); // sending the email
+
+            if (PEAR::isError($mail)){
+            echo("<div style='display:flex; height: 100%; align-items: center; justify-content: center;'>
+            <div style='background:transparent; border-radius: 10px; border: 1px dotted coral; border-bottom: 5px solid red; padding: 15px;'>
+            <p style=' font-size: 26px;'>" . $mail->getMessage() . "</p></div></div>");
+            exit();
+            }
+            else {
+            echo"<div style='display:flex; height: 100%; align-items: center; justify-content: center;'>
+            <div style='background:transparent; border-radius: 10px; border: 1px dotted lightgreen; border-bottom: 5px solid green; padding: 15px;'><h2 style=' font-size: 30px;'>Kindly verify your Email Address, by clicking the link sent to your email Address </h2></div>";
+            exit();
+            // header("Location: http://www.example.com/"); // you can redirect page on successful submission.
+            }

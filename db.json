@@ -1,0 +1,97 @@
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NDUyODM5LCJpYXQiOjE1OTkyODQwNDksIm5iZiI6MTU5OTI4NDA0OSwiZXhwIjoxNTk5MzcwNDQ5fQ.id3qaQGqzj2EuD6HTrcNLs-fo6x_aLXwaj90uFgEPsc",
+  "user": {
+    "integrations": [
+      {
+        "business_name": "WittStack",
+        "business_type": "starter",
+        "short_name": null,
+        "id": 492366,
+        "logged_in_user_role": {
+          "id": 34,
+          "name": "admin",
+          "description": "This role grants users the permissions to manage everything on the dashboard"
+        }
+      }
+    ],
+    "email": "wittstack@gmail.com",
+    "first_name": "Tobi",
+    "last_name": "Ojo",
+    "phone": "+2348132782405",
+    "area_code": "0",
+    "calling_code": "+234",
+    "registration_complete": true,
+    "last_login": "2020-09-05T05:17:54.000Z",
+    "wt_access": "none",
+    "is_developer": true,
+    "job_title": "Founder",
+    "truecaller_verified": false,
+    "drip_tag": "merchant - nigeria",
+    "id": 452839,
+    "invited_by": null,
+    "current_integration": 492366,
+    "passwordLastResetAt": "2020-09-05T05:32:57.000Z",
+    "createdAt": "2020-08-16T01:10:58.000Z",
+    "updatedAt": "2020-09-05T05:32:57.000Z",
+    "display_state": "test",
+    "role": {
+      "value": 541165879287,
+      "name": "admin",
+      "description": "This role grants users the permissions to manage everything on the dashboard",
+      "integration": 0,
+      "service": "dashboard",
+      "id": 34,
+      "organization": 1,
+      "createdAt": "2018-05-10T23:40:26.000Z",
+      "updatedAt": "2018-09-12T17:28:31.000Z",
+      "isDeleted": false,
+      "is_custom": false
+    },
+    "permissions": [
+      "api-key-*",
+      "api-key-view",
+      "user-view",
+      "user-*",
+      "metrics-*",
+      "settings-*",
+      "settings-view",
+      "transaction-view",
+      "transaction-export",
+      "transaction-dispute",
+      "customer-view",
+      "customer-add",
+      "customer-*",
+      "transfer-view",
+      "transfer-*",
+      "transfer-export",
+      "balance-view",
+      "balance-export",
+      "page-view",
+      "page-*",
+      "plan-view",
+      "plan-*",
+      "settlement-view",
+      "settlement-export",
+      "paymentrequest-view",
+      "paymentrequest-*",
+      "subaccount-*",
+      "subaccount-view",
+      "user-add",
+      "customer-insights",
+      "accounts-*",
+      "accounts-view",
+      "charge-*",
+      "request-payout",
+      "product-view",
+      "product-*",
+      "pos-terminal-*"
+    ],
+    "password_expiry": "2021-08-31T05:32:57.000Z",
+    "dashboard_preferences": {
+      "pagination": {
+        "use_cursor": true
+      }
+    }
+  },
+  "token_expiry": 1599370449
+}
